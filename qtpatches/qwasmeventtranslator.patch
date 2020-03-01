@@ -1,0 +1,11 @@
+--- qwasmeventtranslator.cpp	2020-02-25 22:11:12.419888700 +0100
++++ qwasmeventtranslator_mod.cpp	2020-03-01 21:12:27.342943000 +0100
+@@ -719,7 +719,7 @@
+ 
+         QWindowSystemInterface::TouchPoint touchPoint;
+ 
+-        touchPoint.area = QRect(0, 0, 8, 8);
++        touchPoint.area = QRect(0, 0, 64, 64);
+         touchPoint.id = touches->identifier;
+         touchPoint.pressure = 1.0;
+ 
